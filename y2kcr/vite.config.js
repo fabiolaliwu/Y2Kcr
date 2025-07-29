@@ -6,6 +6,6 @@ export default defineConfig({
   preview: {
     host: true,
     port: process.env.PORT || 4173,
-    allowedHosts: ['yskcr.onrender.com'] // add your Render domain here
+    allowedHosts: ['y2kcr.onrender.com'] 
   }
 })
