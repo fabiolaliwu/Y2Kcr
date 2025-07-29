@@ -14,7 +14,7 @@ function App() {
           <img src={y2kLogo} className="logo" alt="Y2K Logo" />
         </div>
         <div className='body'>
-        aqui posteamos las cosas que vamos a vender 
+          EN CONSTRUCCION, YA LLEGAREMOS PRONTO...
         </div>
         <div className='contact'>
           <div className='contactUs'>Contact Us</div>
@@ -52,9 +52,11 @@ function App() {
                   +506 8888 8888
                 </div>
               </div>
-              
             </div>
-            <div className= 'idk'> </div>
+
+            <div className= 'us'> 
+              📍 Based in San José, Costa Rica
+            </div>
           </div>
        
         </div>
