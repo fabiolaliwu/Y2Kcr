@@ -18,6 +18,10 @@
   justify-content: center;
   z-index: 1000; 
 }
+.logo{
+  width: 100px;
+  height: 100%;
+}
 
 .body{
   margin-top: 130px;
@@ -45,16 +49,22 @@
   height: 50px;
   
 }
-.logo{
-  width: 100px;
-  height: 100%;
-}
-
-.belowContactUs{
+.belowContactUs {
   display: flex;
   flex-direction: row;
   height: 200px;
+  justify-content: center;
+  gap: 20px;
 }
+@media (max-width: 768px) {
+  .belowContactUs {
+    flex-direction: column;
+    align-items: center;
+    height: auto; 
+  }
+}
+
+/*LEFT:social media */
 .socialMedia{
   display: flex;
   justify-content: center;
@@ -62,21 +72,34 @@
   flex-direction: column;
   width: 50%;
   height: 100%;
+  padding-top: 10px;
 }
+
 .smLogos{
   height: 30px;
   width: 30px;
   border-radius: 50%;
   margin-right: 10px;
 }
+.box{
+  width: 100%;
+  font-size: medium;
+  height: 33.33%;
+  display: flex;
+}
+.smLogo{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.smContact{
+  width: 70%;
+  height: 100%;
+}
+/*RIGHT*/
 .idk{
   width: 50%;
   height: 100%;
   background-color: rgb(152, 34, 138);
-}
-.box{
-  font-size: medium;
-  width: 50%;
-  height: 33.33%;
-  display: flex;
 }

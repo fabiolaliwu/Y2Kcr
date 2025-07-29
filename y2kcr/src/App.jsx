@@ -21,17 +21,38 @@ function App() {
           <div className='belowContactUs'>
             <div className='socialMedia'>
               <div className='box'>
-                <img src={insta} className='smLogos'></img>
-                @_y2kcr
+                <div className='smLogo'>
+                  <a href='https://www.instagram.com/_y2kcr/' target='_blank' rel='noopener noreferrer'>
+                    <img src={insta} className='smLogos'></img>
+                  </a>
+                </div>
+                <div className='smContact'>
+                  @_y2kcr
+                </div>
               </div>
+
               <div className='box'>
-                <img src={face} className='smLogos'></img>
-                @_y2kcr
+                <div className='smLogo'>
+                  <a href='https://www.facebook.com/_y2kcr/' target='_blank' rel='noopener noreferrer'>
+                    <img src={face} className='smLogos'></img>
+                  </a>
+                </div>
+                <div className='smContact'>
+                  @_y2kcr
+                </div>
               </div>
+
               <div className='box'>
-                <img src={whats} className='smLogos'></img>
-                +506 8888 8888
+                <div className='smLogo'>
+                  <a href='https://www.whatsapp.com/_y2kcr/' target='_blank' rel='noopener noreferrer'>
+                    <img src={whats} className='smLogos'></img>
+                  </a>
+                </div>
+                <div className='smContact'>
+                  +506 8888 8888
+                </div>
               </div>
+              
             </div>
             <div className= 'idk'> </div>
           </div>
