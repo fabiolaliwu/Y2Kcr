@@ -53,9 +53,9 @@ function App() {
                 </div>
               </div>
             </div>
-
             <div className= 'us'> 
               📍 Based in San José, Costa Rica
+              <div className='copyRights'>Copyright ©2025 Y2KCR</div>
             </div>
           </div>
        
