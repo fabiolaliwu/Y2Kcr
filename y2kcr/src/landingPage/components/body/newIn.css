@@ -1,24 +1,48 @@
 .bar{
     box-sizing: border-box;
     column-gap: 60px;
-    height: 600px;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: row;
     padding: 5%;
     justify-content: center;
     align-items: center;
-}
+} 
+@media (max-width: 768px) {
+    .bar {
+        box-sizing: border-box;
+        row-gap: 50px;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 15%;
+        justify-content: center;
+        align-items: center;
+    }
+  }
 .imageHolder{
+    row-gap: 10px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 25%;
-    height: 100%;
+    height: auto;
 }
+@media (max-width: 768px) {
+    .imageHolder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+  }
 .newInImage{
     width: 100%;
-    height: 100%;
+    height: auto;
     max-width: 100%;
     border-radius: 5px;
     flex-shrink: 0;

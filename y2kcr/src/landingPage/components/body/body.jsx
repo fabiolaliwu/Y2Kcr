@@ -10,6 +10,10 @@ function Body() {
                 <div className='construction'> EN CONSTRUCCION, YA LLEGAREMOS PRONTO...</div>
             </div>
             <NewIn />
+            <div className='more'> 
+                <button className="button">ver más</button>
+            </div>
+            
         </div>
     )
 }
