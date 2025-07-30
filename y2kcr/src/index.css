@@ -3,4 +3,10 @@ html, body {
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  width: 100%;
+  /* overflow: hidden; */
+  height: 100%;
+  /* overflow-x: hidden; */
+  overflow: auto;             /* Enable scrolling */
+  scrollbar-width: none;
 }

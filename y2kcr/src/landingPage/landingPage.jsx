@@ -1,7 +1,7 @@
 
 import Contact from './components/contactUs.jsx'
 import './landingPage.css'
-import Body from './components/body.jsx'
+import Body from './components/body/body.jsx'
 import Title from './components/title.jsx'
 
 
