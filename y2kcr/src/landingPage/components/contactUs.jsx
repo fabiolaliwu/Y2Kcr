@@ -39,7 +39,6 @@ function Contact(){
                     </div>
                     <div className='smContact'>
                         +506 8888 8888 
-                        
                     </div>
                     </div>
                 </div>
