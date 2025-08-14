@@ -7,7 +7,7 @@ function Body() {
             <div className='ads'>
                 <div className='emptyBlock'> </div>
                 {/* remove this later */}
-                <div className='construction'> EN CONSTRUCCION, YA LLEGAREMOS PRONTO... </div>
+                <div className='construction'> EN CONSTRUCCION, YA LLEGAREMOS PRONTO...  </div>
             </div>
             <NewIn />
             <div className='more'> 
